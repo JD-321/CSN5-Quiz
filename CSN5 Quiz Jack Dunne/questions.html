@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">    <!-- sets encoding standard -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!-- sets width of the page to the width of the device -->
+
+  <title>QUIZ</title>    <!-- title -->
+
+  <link rel="stylesheet" type="text/css" href="style.css">  <!-- Link to stylesheet css file-->
+  <script src="java.js" defer></script>    <!-- Link to java script -->
+
+</head>
+<body>
+  <section>
+    <div class="questionScreen" id="questionScreen1">    <!-- Question screen 1 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="0.Pablo_Escobar_Mug.jpg" alt="Pablo Escobar Mugshot">
+        <h2>1. What was Pablo Escobar arrested for?</h2>
+        <button onclick="ANSCheck(1, 0)"> Drug Trafficking</button>
+        <button onclick="ANSCheck(1, 1)"> Grand Theft Auto</button>
+        <button onclick="ANSCheck(1, 2)"> All of the Above</button>
+
+
+      </p>
+    </div>
+
+    <div class="questionScreen" id="questionScreen2">    <!-- Question screen 2 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="1.Billgates.jpg" alt="Bill Gates Mugshot">
+        <h2>2. What was Bill Gates arrested for?</h2>
+        <button onclick="ANSCheck(2, 0)">Drug Possession</button>
+        <button onclick="ANSCheck(2, 1)">Driving without a license</button>
+        <button onclick="ANSCheck(2, 2)">All of the above</button>
+      </p>
+    </div>
+
+    <div class="questionScreen" id="questionScreen3">    <!-- Question screen 3 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="2.Keanu-Reeves.jpg" alt="Keanu Reeves Mugshot">
+        <h2>3. What was Keanu Reeves arrested for?</h2>
+        <button onclick="ANSCheck(3, 0)">Trespassing</button>
+        <button onclick="ANSCheck(3, 1)">Driving Under the influence</button>
+        <button onclick="ANSCheck(3, 2)">All of the aobve</button>
+      </p>
+    </div>
+    
+    <div class="questionScreen" id="questionScreen4">    <!-- Question screen 4 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="3.eminem-mug-shot-mugshot-tony-rubino.jpg" alt="Eminem Mugshot">
+        <h2>4. What was Eminem arrested for?</h2>
+        <button onclick="ANSCheck(4, 0)">Drug Posession</button>
+        <button onclick="ANSCheck(4, 1)">Assault with a deadly weapon</button>
+        <button onclick="ANSCheck(4, 2)">All of the above</button>
+      </p>
+    </div>
+    
+    <div class="questionScreen" id="questionScreen5">    <!-- Question screen 5 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="4.Robert-Downey-Jr.-en-prison-le-25-aout-1999.jpg" alt="Robert Downey Jr. Mugshot">
+        <h2>5. What was Robert Downey Jr arrested for?</h2>
+        <button onclick="ANSCheck(5, 0)">Posession of a firearm</button>
+        <button onclick="ANSCheck(5, 1)">Drug posession</button>
+        <button onclick="ANSCheck(5, 2)">All of the above</button>
+      </p>
+    </div>
+    
+    <div class="questionScreen" id="questionScreen6">      <!-- Question screen 6 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="5.Snoop_Dogg_mugshot.jpg" alt="Snoop Dogg Mugshot">
+        <h2>6. What was Snoop Dogg arrested for?</h2>
+        <button onclick="ANSCheck(6, 0)">Murder</button>
+        <button onclick="ANSCheck(6, 1)">Posession of cannabis</button>
+        <button onclick="ANSCheck(6, 2)">Racketeering</button>
+      </p>
+    </div>
+        
+    <div class="questionScreen" id="questionScreen7">    <!-- Question screen 7 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="6.Al-Pacino.jpg" alt="Al Pacino Mugshot">
+        <h2>7. What was Al Pacino arrested for?</h2>
+        <button onclick="ANSCheck(7, 0)">Aggravated Assault</button>
+        <button onclick="ANSCheck(7, 1)">Driving under the influence</button>
+        <button onclick="ANSCheck(7, 2)">Firearm Possesion</button>
+      </p>
+    </div>
+    
+    <div class="questionScreen" id="questionScreen8">    <!-- Question screen 8 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="7.Ted-Kaczynski.jpg" alt="Ted Kaczynski Mugshot">
+        <h2>8. What was Ted Kaczynski arrested for?</h2>
+        <button onclick="ANSCheck(8, 0)">Drug Possession</button>
+        <button onclick="ANSCheck(8, 1)">Aggravated assault</button>
+        <button onclick="ANSCheck(8, 2)">Murder</button>
+      </p>
+    </div>
+    
+    <div class="questionScreen" id="questionScreen9">    <!-- Question screen 9 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="8.50-cent.jpg" alt="50 Cent Mugshot">
+        <h2>9. What was 50 Cent arrested for?</h2>
+        <button onclick="ANSCheck(9, 0)">Selling drugs</button>
+        <button onclick="ANSCheck(9, 1)">Aggravated assault</button>
+        <button onclick="ANSCheck(9, 2)">Driving under the influence</button>
+      </p>
+    </div>
+    <div class="questionScreen" id="questionScreen10">    <!-- Question screen 10 -->
+      <h1>Outlaw Trivia</h1>
+      <p>
+        <img src="9.the-juice.jpg" alt="O.J. Simpson Mugshot">
+        <h2>10. What did O.J. Simpson go to Prison for?</h2>
+        <button onclick="ANSCheck(10, 0)">Murder</button>
+        <button onclick="ANSCheck(10, 1)">Armed robbery</button>
+        <button onclick="ANSCheck(10, 2)">Drinking Juice</button>
+      </p>
+    </div>
+
+   </section>
+
+  <section class="finishedScreen" id="finishedScreen">    <!-- Finished screen -->
+    <h1>Quiz Completed!</h1>
+	<img src="cops.png" alt="Cops" id="CopsImage">
+	<h2>Score: <span id="score"></span></h2>    <!-- Displays user score -->
+    <h2>"Did you do well? If not then keep trying!"</h2>
+    <div>
+      <button id="repeatQuizButton">Start Again</button>    <!-- Button for repeating quiz -->
+      <button id="showAnswersButton">Show Answers</button>    <!-- Button for showing answers -->
+    </div>
+  </section>
+
+  <section class="AnswerScreen" id="AnswerScreen" style="display: none;">    <!-- Answer screen -->
+    <h1>Correct Answers</h1> 
+    <div id="AnswerList">    <!-- Displays correct answers -->
+      <h2>1. Pablo Escobar: All of the above</h2>
+      <h2>2. Bill Gates: Driving without a license</h2>
+      <h2>3. Keanu Reeves: Driving under the influence</h2>
+      <h2>4. Eminem: All of the above</h2>
+      <h2>5. Robert Downey Jr: All of the above</h2>
+      <h2>6. Snoop Dogg: Murder</h2>
+      <h2>7. Al Pacino: Firearm Posesion</h2>
+      <h2>8. Ted Kaczynski: Murder</h2>
+      <h2>9. 50 Cent: Selling drugs</h2>
+      <h2>10. O.J. Simpson: Armed Robbery</h2>
+    </div>
+    <button id="CloseButton" onclick="toggleAnswerScreen()">Close</button>    <!-- Button for closing the answer screen -->
+  </section>
+  
+</body>
+</html>

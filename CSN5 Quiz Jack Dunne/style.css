@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 6px;
+}
+
+h1 { 
+  color: rgb(204, 20, 20);
+  font-size: 45px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 1.0;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-shadow: 
+    -1.5px -1.5px 0 #000,  
+    1.5px -1.5px 0 #000,
+    -1.5px  1.5px 0 #000,
+    1.5px  1.5px 0 #000;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1.0;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+#CopsImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	outline: none;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 450px;
+    border-radius: 6px;
+    outline: 3px solid black;
+}
+
+#StartButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#StartButton a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px; /* Adjust based on the desired square size */
+  height: 150px; /* Ensure this matches the width for a 1:1 aspect ratio */
+  font-size: 100px; /* Adjusted for visibility within the square */
+  color: white;
+  background-color: rgb(204, 20, 20);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 4px rgb(128, 0, 0);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0; /* Reset any default padding */
+}
+
+#StartButton a:hover {
+  background-color: rgb(180, 0, 0);
+  box-shadow: 0 2px rgb(128, 0, 0); 
+}
+
+.questionScreen {
+    text-align: center;
+}
+
+.questionScreen img {
+    display: block;
+    margin: 0 auto;
+}
+
+.questionScreen button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(204, 20, 20);
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.questionScreen button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.finishedScreen {
+  display: none; 
+  text-align: center;
+}
+
+.finishedScreen h1 {
+  color: #4CAF50; 
+}
+
+
+.finishedScreen button {    /* Buttons for repeating quiz and showing answers */
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.finishedScreen button:hover {
+  background-color: #3a883e;
+}
+
+.AnswerScreen {
+  text-align: center;
+  display: none;
+
+}
+
+#CloseButton {    /* Close pop-up button */
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(204, 20, 20);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+#CloseButton:hover {
+  background-color: rgb(0, 0, 0);
+}
